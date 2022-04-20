@@ -54,8 +54,8 @@ const arkFood = (price, voucher, distance, tax) => {
   let biayaAntar = 5000;
   //   jika lebih dari 2km
   if (biayaAntar >= 3) {
-    hitungBiaya = distance - 2;
-    biayaAntar = 5000 + hitungBiaya * 3000;
+    hitungJarak = distance - 2;
+    biayaAntar = 5000 + hitungJarak * 3000;
   }
 
   //   cek pajak

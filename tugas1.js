@@ -4,9 +4,11 @@ const cekPalindrom = (text) => {
   }
   text = text.toLocaleLowerCase();
   let uji = "";
+  // melakukan perulangan untuk membalik kata
   for (let i = text.length - 1; i >= 0; i--) {
     uji = uji + text[i];
   }
+  // mengecek kta yang dubah
   if (text === uji) {
     return "palindrom";
   } else {
@@ -15,5 +17,7 @@ const cekPalindrom = (text) => {
 };
 
 const text = "Malam";
+const text2 = "Bukan";
 console.log(cekPalindrom(text));
+console.log(cekPalindrom(text2));
 console.log(cekPalindrom(12));

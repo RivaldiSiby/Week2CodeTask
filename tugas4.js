@@ -1,4 +1,4 @@
-const devideAndSort = (numbers) => {
+const divideAndSort = (numbers) => {
   // validasi
   if (typeof numbers !== "number") {
     return "inputan harus bertipe number";
@@ -19,4 +19,4 @@ const devideAndSort = (numbers) => {
 };
 
 // test
-devideAndSort(5956560159466056);
+divideAndSort(5956560159466056);

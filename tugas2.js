@@ -27,7 +27,11 @@ const reverseWords = (text) => {
   let hasil = "";
   // loopping untuk membalikan array kalimat dan memasukannya ke variable hasil
   for (let i = kalimat.length - 1; i >= 0; i--) {
-    hasil += kalimat[i] + " ";
+    if (i === 0) {
+      hasil += kalimat[i];
+    } else {
+      hasil += kalimat[i] + " ";
+    }
   }
   return hasil;
 };
