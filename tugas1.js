@@ -10,7 +10,7 @@ const cekPalindrom = (text) => {
   if (text === uji) {
     return "palindrom";
   } else {
-    return "selesai";
+    return "bukan palindrom";
   }
 };
 

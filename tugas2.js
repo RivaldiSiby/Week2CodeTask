@@ -35,4 +35,8 @@ const reverseWords = (text) => {
 const text = "    reverse    coba    uji     ";
 const text2 = "ujian sedang saya ";
 const text3 = " melompat sedang tupai";
+const text4 = "melompat sedang katak ";
 console.log(reverseWords(text));
+console.log(reverseWords(text2));
+console.log(reverseWords(text3));
+console.log(reverseWords(text4));
